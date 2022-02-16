@@ -31,6 +31,7 @@ target policy unchanged but if the target policy predicts incorrectly we change 
 coefficients of the reward coefficients(target policy) as per the error obtained in the
 prediction after every such repetition, we replace the current response with a random
 statement from a separate data set and update the streak to 0.
+
 Reward:-
 The rewards are as mentioned above the implementation is as follows:
 1. Streak reward :- the current streak is divided by 500
